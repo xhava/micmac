@@ -1,0 +1,242 @@
+
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+   .navbar-collapse.collapse {
+       display: none !important;
+   }
+
+   .navbar-toggle { display:inline-block; float:right; }
+   .navbar-header { width:100%; }
+
+   .clientList li:nth-child(3n+0) { margin-right:21px; }
+}
+
+/******************** TABLET *********************/
+
+@media only screen and (max-width:1170px) { 
+
+	.subHeader.split, .subHeader.classic { margin-top:81px;}
+
+   .subHeader.classic h1 { font-size:73px; }
+	.subHeader.classic h1 span { font-size:28px; }
+	.subHeader.classic .col-lg-8.col-md-8.col-sm-8 { margin-top:30px; }
+	.subHeader.classic .button.cart { display:none; }
+
+   #screenMiddle { margin-left:18%; }
+
+	.services3Col_big .row.services.animated, #screenMiddle.animated, #screenRight.animated, #screenLeft.animated, .featuresImg.animated, .features ul.animated {
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+		transition-delay: 0.0s;
+	}
+
+	.serviceText { max-width:63%; } 
+
+   /** TESTIMONIALS **/
+	.image img, .text { float:none; text-align:center; margin:0 auto; }
+	.image .testimonialImg { margin-bottom:30px; margin-left:42%; }
+	.text .quote { font-size:18px; }
+	.image .testimonialDivider { display:none; }
+
+	/* SHORTCODES */
+	.tabContent { margin-bottom:30px; }
+
+	.confirmOrder .button.grey { margin-bottom:30px; }
+
+}
+
+/******************** MOBILE *********************/
+
+@media only screen and (min-width: 480px) and (max-width: 980px) {
+
+	/** HEADER **/
+	.nav.navbar-nav { float:left; }
+	.nav.navbar-nav li a {
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+	.verticalDivider { display:none; }
+	.nav.navbar-nav .search { margin-right:35px; }
+	.searchDropdown {
+		margin-right:-620px;
+		margin-left:150px;
+		margin-top:-70px;
+	}
+
+	/** SUBHEADER **/
+	.subHeader.split, .subHeader.classic { margin-top:81px;}
+	.subHeader.split { height:810px; }
+	.subHeader.split h1 { font-size:80px; }
+
+	.subHeader.classic h1 { font-size:56px; float:none; }
+	.subHeader.classic h1 span { font-size:22px; }
+	.subHeader.classic p { font-size:16px; }
+	.subHeader.classic .col-lg-8.col-md-8.col-sm-8 { margin-top:15px; }
+	.subHeader.classic .divider { display:none; }
+	.subHeader.classic .iphone { max-width:75%; margin:20px auto; }
+
+	.leftBlock { 
+		width:100%; 
+		text-align:center; 
+		padding-left:0px; 
+		padding-top:100px;
+		padding-bottom:100px;
+	}
+
+	.rightBlock { width:100%; padding-top:100px; padding-bottom:100px; }
+	.rightBlock .subHeaderList li { margin-left:37px; margin-right:37px; }
+	.rightBlock .subHeaderGraphic { max-width:345px; }
+
+	.subHeaderList { margin-bottom:50px;}
+
+	/** WORK PREVIEW SECTION **/
+	#screenLeft, #screenRight { display:none; }
+	#screenMiddle { position:relative; margin:0 auto;}
+	#screenMiddle.animated { margin-top:0px; }
+
+	.workFullWidth_list .image { width:50%; }
+
+	/** REMOVE ANIMATIONS ON SCROLL **/
+	.services3Col_big .row.services, .featuresImg, .features ul, #screenMiddle { 
+		opacity:1; 
+		-webkit-transition: none;
+		-moz-transition: none;
+		-o-transition: none;
+		transition:none; 
+	}
+
+	/** BLOG **/
+	.blogPostMasonry { margin:0 auto; }
+
+	/** TESTIMONIALS **/
+	.image img, .text { float:none; text-align:center; margin:0 auto; }
+	.image .testimonialImg { margin-bottom:30px; margin-left:38%; }
+	.text .quote { font-size:18px; }
+	.image .testimonialDivider { display:none; }
+	.sliderControls span { margin-top:-47%; }
+
+	/* PROMOBOX */
+	.promoBox { text-align:center; }
+	#mailIcon { float:none; }
+}
+
+@media only screen and (max-width: 600px) { 
+
+	/** BLOG **/
+	.blogPostMasonry { float:none; margin:0 auto; margin-bottom:30px; } 
+}
+
+@media only screen and (max-width: 770px) { 
+
+	.aboutTeam .col-lg-3, .process.col-lg-3 { float:none; margin:0 auto; margin-bottom:20px; }
+
+	/* SKILLS SECTION */
+	.skillDivider { display:none; }
+	.skills p { float:none; margin-top:0px; }
+	.skillsList { float:none; margin:0 auto; }
+	.skillsList li { float:none; margin:0 auto; display:block; margin-bottom:40px; }
+	.skillsList li:nth-child(4) { margin-left:auto; margin-right:auto; }
+
+	.serviceText { width:100%; }
+}
+
+@media only screen and (max-width: 479px) {
+
+	/** HEADER **/
+	.nav.navbar-nav { float:left; }
+	.nav.navbar-nav li a {
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+	.verticalDivider { display:none; }
+
+	.nav.navbar-nav .dropdown .dropdown-menu .dropdown-submenu:hover > .dropdown-menu {
+		margin-top:0px;
+	}
+
+	.nav.navbar-nav .search { margin-right:35px; }
+	.searchDropdown {
+		margin-right:-620px;
+		margin-left:150px;
+		margin-top:-70px;
+	}
+
+	.italicSmall.top { margin-bottom:10px; }
+	.topBar .socialIcons { float:left; margin-bottom:10px; }
+
+	/** SUBHEADER **/
+	.subHeader.split, .subHeader.classic { margin-top:81px;}
+
+	.subHeader.split { height:810px; }
+
+	.subHeader.split h1 { font-size:75px; }
+	.leftBlock p { font-size:25px; }
+
+	.leftBlock { 
+		width:100%; 
+		text-align:center; 
+		padding-left:0px; 
+		padding-top:100px;
+		padding-bottom:100px;
+	}
+
+	.divider { max-width:300px; }
+
+	.rightBlock { width:100%; padding-top:100px; padding-bottom:100px; }
+	.rightBlock h2 { font-size:30px; }
+	.rightBlock .subHeaderList li { font-size:15px; margin-left:20px; margin-right:20px; }
+	.rightBlock .subHeaderGraphic { max-width:290px; }
+
+	.subHeaderList { margin-bottom:50px;}
+
+	.subHeader.classic { }
+	.subHeader.classic h1 { font-size:40px; float:none; }
+	.subHeader.classic h1 span { font-size:15px; }
+	.subHeader.classic p { font-size:14px; }
+	.subHeader.classic .col-lg-8.col-md-8.col-sm-8 { margin-top:0px; }
+	.subHeader.classic .iphone { max-width:75%; margin:20px auto; }
+	.subHeader.classic .divider { display:none; }
+
+	/** WORK PREVIEW SECTION **/
+	#screenLeft, #screenRight { display:none; }
+	#screenMiddle { position:relative; margin:0 auto;}
+	#screenMiddle.animated { margin-top:0px; }
+
+	.workFullWidth_list .image { width:50%; }
+
+	.portfolioCat_list li a { width:100%; }
+
+	/** REMOVE ANIMATIONS ON SCROLL **/
+	.services3Col_big .row.services, .featuresImg, .features ul, #screenMiddle { 
+		opacity:1; 
+		-webkit-transition: none;
+		-moz-transition: none;
+		-o-transition: none;
+		transition:none; 
+	}
+
+	/** BLOG **/
+	.blogPostCreative.wide { max-width:100%; }
+
+	.serviceText { width:100%; float:none; } 
+
+	/** TESTIMONIALS **/
+	.image img, .text { float:none; text-align:center; margin:0 auto; }
+	.image .testimonialImg { margin-bottom:20px; margin-left:33%; }
+	.text .quote { font-size:18px; }
+	.image .testimonialDivider { display:none; }
+	.sliderControls span { margin-top:-70%; }
+
+	/* PROMOBOX */
+	.promoBox { text-align:center; }
+	#mailIcon { float:none; }
+
+	/* FOOTER */
+	footer .col-lg-4 { margin-bottom:50px; }
+	footer h4 {  }
+
+	.button.red.shopForm { float:none; margin-top:20px; width:100%; }
+	.contactForm .button { width:100%; }
+
+}
